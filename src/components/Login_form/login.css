@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+html,body{
+  width: 100%;
+  background-color: rgb(170, 233, 233);
+}
+
+.parent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-page{
+    /* position: relative; */
+    width: 30vw;
+    background-color: white;
+    border-radius: 30px 5px 30px 5px;
+    margin-top: 80px;
+    padding: 15px;
+}
+
+.login-page .h11{
+width: 100%;
+border-bottom: 2px solid rgba(0, 0, 0, 0.336);
+border-radius: 2px;
+}
+
+.h11 h1{
+    color: rgba(18, 83, 224, 0.747);
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.login-page .login-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+}
+.login-form label{
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.login-form .input-form{
+    width: 100%;
+    height: 40px;
+    font-size: 1.4vw;
+    font-weight: 100;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.login-form .option{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.login-form .option label{
+    margin-right: 10px;
+    font-size: 1.5vw;
+    font-weight: 100;
+    padding-left: 5px;
+}
+.login-form .option input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.login-form .option a{
+    text-decoration: none;
+    color: rgb(39, 93, 241);
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.option a:hover{
+    color: crimson;
+}
+
+.login-form .btn-button{
+    height: 35px;
+    border-radius: 10px;
+    background: rgba(12, 78, 219, 0.897);
+    border: none;
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 500;
+    margin-bottom: 10px;
+    transition: 1.05s ease;
+    cursor: pointer;
+}
+
+.login-form .btn-button:hover{
+    background-color: rgba(39, 104, 39, 0.767);
+}
+
+.login-page .card{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-page .card p{
+    color: #2b2a2a;
+    font-weight: 300;
+    font-size: 1.3vw;
+}
+.login-page .card p a{
+    text-decoration: none;
+}
+
+.login-page .card p a:hover{
+    color: crimson;
+    font-weight: 600;
+}
+.card .card1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.card .card1 a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card .card1 img{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: 1.05s ease;
+}
+.card .card1 img:hover{
+    transform: rotate(1.0turn);
+}
+
+
+@media (max-width:600px){
+    .login-page{
+        width: 100%;
+        background-color: rgb(243, 243, 54);
+    }
+    .login-page .h11 h1{
+        font-size: 7vw;
+    }
+    .login-form label{
+        font-size: 4.3vw;
+    }
+    .login-form .input-form{
+        font-size: 5vw;
+    }
+    .login-page .option label{
+        font-size: 4.3vw;
+        /* margin-left: -25px; */
+    }
+    .login-page .option a{
+        font-size: 4.3vw;
+        
+    }
+    .login-form .btn-button{
+        font-size: 4.5vw;
+    }
+    .login-page .card p{
+        font-size: 3.6vw;
+    }
+}
+
+@media (max-width:601x){
+    .login-page{
+        width: 25%;
+        background-color: beige;
+    }
+    .login-page .h11 h1{
+        font-size: 7vw;
+    }
+    .login-form label{
+        font-size: 4vw;
+    }
+    .login-form .input-form{
+        font-size: 4vw;
+    }
+    .login-page .option label{
+        font-size: 4.3vw;
+        /* margin-left: -25px; */
+    }
+    .login-page .option a{
+        font-size: 4.3vw;
+        
+    }
+    .login-form .btn-button{
+        font-size: 4.5vw;
+    }
+    .login-page .card p{
+        font-size: 3.6vw;
+    }
+}
+
+@media (max-width:1250px){
+    .login-page{
+        width: 50%;
+        background-color: beige;
+    }
+    .login-page .h11 h1{
+        font-size: 5vw;
+    }
+    .login-form label{
+        font-size: 3vw;
+    }
+    .login-form .input-form{
+        font-size: 3vw;
+        height: 50px;
+    }
+    .login-page .option label{
+        font-size: 3vw;
+        /* margin-left: -25px; */
+    }
+    .login-page .option a{
+        font-size: 3vw;
+        
+    }
+    .login-form .btn-button{
+        font-size: 3vw;
+        height: 50px;
+    }
+    .login-page .card p{
+        font-size: 2vw;
+    }
+}
+
