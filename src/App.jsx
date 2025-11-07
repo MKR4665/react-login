@@ -2,7 +2,7 @@ import React from 'react'
 
 
 // import Card from './components/Card'
-// import Login from './components/Login_form/Login'
+import Login from './components/Login_form/Login'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
      <Card />
      <Card />
      <Card /> */}
-      {/* <Login /> */}
+      <Login />
     </div>
   )
 }
