@@ -189,7 +189,7 @@ border-radius: 2px;
     }
 }
 
-@media (max-width:601x){
+@media (max-width:601px){
     .login-page{
         width: 25%;
         background-color: beige;

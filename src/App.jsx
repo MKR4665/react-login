@@ -6,7 +6,7 @@ import Login from './components/Login_form/Login'
 
 function App() {
   return (
-    <div className='parent'>
+    <div >
      {/* <Card />
      <Card />
      <Card />
